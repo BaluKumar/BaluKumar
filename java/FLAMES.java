@@ -2,8 +2,9 @@
 import java.util.Scanner;
 class FLAMES extends FLAMES2{
     /**
-     * @param args
+     * @param args 
      */
+    // HI WELCOME TO GITHUB
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
         System.out.print("Enter first name :");
