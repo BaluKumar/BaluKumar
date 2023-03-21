@@ -39,6 +39,6 @@ class FLAMES extends FLAMES2{
                 count++;
         }
         System.out.print(count);
-
+        //is it working
     }
 }
