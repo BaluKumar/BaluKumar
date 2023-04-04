@@ -1,0 +1,31 @@
+button{
+	background-color: white;
+	color: red;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	color:red;
+	font-weight: bold;
+	text-decoration:underline;
+}/*
+a.hover{
+	color:green;
+}*/
+a:active{
+	color:yellow;
+	background-color:green;
+}
+a:visited{
+	background-color:green;
+}
+table, th, td {
+  border: 1px solid;
+}
+body{
+	
+}
+.id1{
+	border: 5px  solid;
+}

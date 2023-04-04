@@ -1,0 +1,76 @@
+body{
+    background-image: url('https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg');
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-position: fixed;
+}
+h1{
+    text-align: center;
+    color: green;
+    font-size: 60px;                            
+}
+h2{
+    font-size: 40px;
+    color: aqua;
+    text-align: center;
+}
+.login-div{
+    border: solid  2px;
+    background-color: rgba(255, 255, 255, 0.19);
+    border-radius: 10px;
+    margin: auto;
+    height: 400px;
+    padding: 20px;
+    width: 300px;
+}
+form{
+    width: 80%;
+    margin: auto;
+    line-height: 2em;
+}
+label{
+    display: block;
+}
+/*
+checking code to apply a purticular element 
+
+h1[name="companyName"]{
+    text-decoration: underline;
+}
+label[for="Name"]{
+    color: red;
+}
+
+ and working perfectly*/
+input[type="button"]{
+    background-color: transparent;
+    align-items: center;
+    border-radius: 10px;
+    color: black;
+    border: solid 2px blue;
+    width: 30%;
+}
+input[type="button"]:hover{
+    background-color: blue;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    border: solid 2px rgba(255, 255, 255, 0.438);
+    width: 30%;
+}
+input{
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 10px;
+    border: solid 2px ;
+    height: 35px;
+}
+a{
+    color: darkred;
+    float: right;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+}

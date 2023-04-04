@@ -1,0 +1,21 @@
+function welcome(){
+ var name="balu";
+ alert(name);
+}
+function disPara(){
+	var CreateTag=document.createElement("p");
+	var text=document.createTextNode(document.getElementById("value").value);
+	document.p.replaceChild(text);
+	CreateTag.appendChild(text);
+	document.body.appendChild(CreateTag);
+}
+function create_table(){
+	var Tag=document.createElement("table");
+	var Th_Tag=document.createElement("th");
+	var Tr_Tag=document.createElement("tr");
+	var Td_Tag=document.createElement("td");
+	Tr_Tag.appendChild(Th_Tag);
+	Tag.appendChild(Tr_Tag);
+	document.body.appendChild(Tag);
+
+}

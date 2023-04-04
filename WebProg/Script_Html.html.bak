@@ -1,0 +1,25 @@
+<Doctype html!>
+<html>
+	<head>
+		<title> Welcome</title>
+		<script src="Script.js">
+			
+		</script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body >
+	<figure>
+	<img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg" alt="404 error" width="300px" height="200px">
+	<figcaption>Tree Of Life</figcaption>
+	</figure>
+	<p class="id1">Do not forget to buy <mark>milk</mark> today.</p>
+	<lable title="Name">name</lable>
+	<input type="text" id="StuName"><br>
+	<lable>10<sup>th</sup> : </lable>
+	<input type="number" id="stuPer"><br>
+	<button onclick="create_table()">Create Table</button><br>
+	<textarea id ="value"></textarea>
+	<a href="#" traget="_blanck"><s>Click below button<s></a>
+	<button onclick="disPara()">Click Here</button>
+	</body>
+</html>
